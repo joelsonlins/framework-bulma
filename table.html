@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/1daa293274.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="columns">
+
+            <div class="column is-offset-2 is-8">
+
+                <h1 class="title is-1 has-text-centered is-1 has-text-primary is-spaced">Curso de Bulma CSS</h1>
+                <h2 class="title is-3 has-text-info has-text-centered">Tabelas</h2>
+
+                <table class="table is-bordered is-striped is-narrow is-fullwidth is-hoverable  ">
+                    <thead>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Imagem</th>
+                        <th>Perfil(%)</th>
+                        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Rodrigo Ortiz</td>
+                            <td>         <figure class="image is-36x36">
+                                <img src="http://via.placeholder.com/50x50" alt="">
+                            </figure></td>
+                            <td>
+                                <progress class="progress is-danger" value="30" max="100"></progress>
+                            </td> 
+                        </tr>
+                        <tr class="is-selected">
+                            <td>2</td>
+                            <td>Andrea Perez</td>
+                            <td>
+                                <figure class="image is-36x36">
+                                    <img src="http://via.placeholder.com/50x50" alt="">
+                                </figure>
+                            </td>
+                            <td>
+                                <progress class="progress is-warning" value="60" max="100"></progress>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Angel Becerril</td>
+                            <td>         <figure class="image is-36x36">
+                                <img src="http://via.placeholder.com/50x50" alt="">
+                            </figure></td>
+                            <td>
+                                <progress class="progress is-success" value="100" max="100"></progress>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
